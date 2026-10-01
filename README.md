@@ -8,7 +8,7 @@ Site em homenagem a Ayrton Senna, com a trajetória do piloto, galeria de fotos,
 
 O projeto está publicado com o **GitHub Pages**:
 
-👉 **https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/**
+👉 **https://gustazlx.github.io/Primeiro-projeto/**
 
 ## Páginas
 
