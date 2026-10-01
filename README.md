@@ -4,6 +4,12 @@ Site em homenagem a Ayrton Senna, com a trajetória do piloto, galeria de fotos,
 
 > **Este foi meu primeiro projeto de front-end.** Foi minha primeira interação com desenvolvimento web, e aprendi muito construindo cada página.
 
+## 🌐 Acesse o site
+
+O projeto está publicado com o **GitHub Pages**:
+
+👉 **https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/**
+
 ## Páginas
 
 | Página | Conteúdo |
@@ -20,6 +26,7 @@ Site em homenagem a Ayrton Senna, com a trajetória do piloto, galeria de fotos,
 - HTML5
 - CSS3
 - Bootstrap 5
+- GitHub Pages (publicação)
 
 ## Estrutura do projeto
 
@@ -35,7 +42,7 @@ Site em homenagem a Ayrton Senna, com a trajetória do piloto, galeria de fotos,
 └── videos/     # vídeo e legenda (.mp4 e .vtt)
 ```
 
-## Como executar
+## Como executar localmente
 
 1. Clone o repositório:
    ```bash
