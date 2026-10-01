@@ -1,0 +1,279 @@
+/* Define a margem do body e a fonte padrão para o site */
+body {
+  margin: 0%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estiliza o cabeçalho (header): cor de fundo, cor do texto, padding, alinhamento e tamanho da fonte */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+/* Estiliza o link dentro do h1 no header, tirando o sublinhado e deixando branco */
+header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estiliza a navbar com fundo escuro */
+.navbar {
+background-color: #333; 
+}
+
+/* Estiliza a marca (logo ou título) da navbar */
+.navbar-brand {
+font-weight: bold; 
+color: #007bff; 
+}
+
+/* Estiliza os links da navbar */
+.navbar-nav .nav-link {
+color: #acaeb1; 
+}
+
+/* Muda a cor dos links da navbar ao passar o mouse */
+.navbar-nav .nav-link:hover {
+color: #0056b3; 
+}
+
+/* Estiliza o botão da navbar quando colapsada (menu hamburguer) */
+.navbar-toggler {
+border-color: white; 
+}
+
+/* Container para imagem de fundo com altura fixa */
+.fundo-container {
+  position: relative;
+  width: 100%;
+  height: 840px;
+}
+
+/* Estiliza a imagem de fundo para cobrir todo o container */
+.fundo {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estiliza o título dentro do fundo: centralizado e com sombra para melhor visibilidade */
+.fundo-container h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+/* Centraliza os títulos da seção "inicio" */
+.inicio h1, .inicio h2 {
+text-align: center; 
+margin: 20px; 
+}
+
+.inicio h3 {
+margin: 0px;
+}
+
+/* Estiliza a "biografia-box": layout flexível com bordas, fundo branco e efeito de hover */
+.biografia-box {
+margin: auto;
+display: flex; 
+justify-content: space-between;
+align-items: center;
+background-color: #ffffff; 
+border: 2px solid #ff0000; 
+border-radius: 10px; 
+padding: 20px; 
+text-decoration: none; 
+color: #333; 
+transition: transform 0.3s ease; 
+width: auto; 
+position: relative;
+}
+
+/* Aplica efeito de zoom na biografia ao passar o mouse */
+.biografia-box:hover {
+transform: scale(1.05); 
+}
+
+/* Remove margens e esconde o parágrafo por padrão */
+.biografia-box h2 {
+margin: 0; 
+}
+.biografia-box p {
+display: none; 
+margin-top: 10px; 
+}
+
+/* Exibe o parágrafo ao passar o mouse na box */
+.biografia-box:hover p {
+display: block; 
+}
+
+/* Estilização para o conteúdo de vídeo */
+.video {
+justify-items: center;
+}
+
+/* Estilo do rodapé: cor de fundo, cor do texto e centralização */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+/* Container padrão com largura máxima */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Estiliza títulos */
+.title {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+/* Estilo dos blocos de conteúdo com borda vermelha, sombra e efeito ao passar o mouse */
+.box {
+  background-color: #ffffff;
+  border-left: 10px solid #ff0000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+/* Aumenta ligeiramente o tamanho da box ao passar o mouse */
+.box:hover {
+  transform: scale(1.02);
+}
+
+.box h2 {
+  color: #333333;
+}
+.box p {
+  color: #555555;
+  line-height: 1.6;
+}
+
+/* Centraliza imagens e aplica efeitos */
+.image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Margem para elementos com classe .tec */
+.tec {
+  margin: 10px;
+}
+
+/* Estilo da seção "fontes" */
+.fontes h1 {
+  text-align: center;
+}
+.fontes {
+  align-self: center;
+}
+
+/* Estiliza a galeria de imagens */
+.txtgaleria h1 {
+text-align: center;
+}
+.imggv {
+display: flex;
+justify-content: center;
+gap: 20px; 
+margin-top: 20px;
+}
+.imggv img {
+border-radius: 8px; 
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+.imggv img:hover {
+transform: scale(1.05); 
+}
+
+/* Lista de fontes com espaçamento e estilos de links */
+.fonte-lista {
+padding-left: 1rem;
+font-size: 1.1rem;
+}
+.fonte-lista li {
+margin-bottom: 1rem;
+}
+.fonte-lista a {
+text-decoration: none;
+color: #0d6efd;
+}
+.fonte-lista a:hover {
+text-decoration: underline;
+}
+
+/* Centraliza o título da tabela */
+.titulo {
+text-align: center;
+}
+
+/* Estilo da tabela de Ayrton Senna: largura, centralização e bordas */
+.tabela-senna {
+width: 80%;
+margin: 30px auto;
+border-collapse: collapse;
+font-family: Arial, sans-serif;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Células da tabela: borda, espaçamento e alinhamento */
+.tabela-senna th, .tabela-senna td {
+border: 1px solid #ddd;
+padding: 12px 18px;
+text-align: center;
+}
+
+/* Cabeçalho da tabela: fundo vermelho e texto branco */
+.tabela-senna th {
+background-color: #cc0000;
+color: white;
+font-size: 1.1rem;
+}
+
+/* Zebra striping: aplica cor de fundo nas linhas pares */
+.tabela-senna tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+/* Efeito hover nas linhas da tabela */
+.tabela-senna tr:hover {
+background-color: #f1f1f1;
+transform: scale(1.01);
+transition: all 0.2s ease-in-out;
+}
+
+/* Fonte e cor do conteúdo das células */
+.tabela-senna td {
+font-size: 1rem;
+color: #333;
+}
