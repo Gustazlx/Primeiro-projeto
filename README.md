@@ -4,11 +4,11 @@ Site em homenagem a Ayrton Senna, com a trajetória do piloto, galeria de fotos,
 
 > **Este foi meu primeiro projeto de front-end.** Foi minha primeira interação com desenvolvimento web, e aprendi muito construindo cada página.
 
-## 🌐 Acesse o site
+##  Acesse o site
 
 O projeto está publicado com o **GitHub Pages**:
 
-👉 **https://gustazlx.github.io/Primeiro-projeto/**
+ **https://gustazlx.github.io/Primeiro-projeto/**
 
 ## Páginas
 
@@ -52,4 +52,4 @@ O projeto está publicado com o **GitHub Pages**:
 
 ## Autor
 
-Gustavo – estudante da UVV (Universidade Vila Velha).
+Gustavo de Oliveira Thezolin– estudante da UVV (Universidade Vila Velha).
