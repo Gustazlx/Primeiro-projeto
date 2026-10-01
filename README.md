@@ -2,7 +2,7 @@
 
 Site em homenagem a Ayrton Senna, com a trajetória do piloto, galeria de fotos, vídeo, tabela de títulos e poles, formulário de contato e fontes de pesquisa.
 
-> 🚀 **Este foi meu primeiro projeto de front-end.** Foi minha primeira interação com desenvolvimento web, e aprendi muito construindo cada página.
+> **Este foi meu primeiro projeto de front-end.** Foi minha primeira interação com desenvolvimento web, e aprendi muito construindo cada página.
 
 ## Páginas
 
